@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Log_in">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/download"
+        android:fontFamily="cursive"
+        android:paddingVertical="60dp"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="@string/user_name"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="@string/password"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/login"
+        android:textColor="#fafafa" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/forget_password"
+        android:textColor="#fafafa" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/no_account_yet_create_an_account"
+        android:textAlignment="center" />
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/sign_up"
+        android:textColor="#fafafa" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Want To Login With:"
+        android:textAlignment="center" />
+    <LinearLayout
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/button_bg"
+            android:text="@string/google"
+            android:textColor="#fafafa" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:textColor="#fafafa"
+            android:text="@string/facebook" />
+    </LinearLayout>
+</LinearLayout>

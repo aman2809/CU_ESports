@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Splash Screen</string>
+    <string name="cu_esportz">CU ESportz</string>
+    <string name="gaming_platform_for_everyone">Gaming Platform For Everyone</string>
+    <string name="todo">TODO</string>
+    <string name="esportz">Esportz</string>
+    <string name="cu">CU</string>
+    <string name="sign_in_or_login" />
+    <string name="string_sign_in_or_login">login or sighup</string>
+    <string name="title_activity_login_in">Login_in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign Up</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_page">Login Page</string>
+    <string name="sign_up_page">Sign Up Page</string>
+    <string name="login">Login</string>
+    <string name="user_name">User Name:</string>
+    <string name="password">Password:</string>
+    <string name="confirmPassword">Confirm Password:</string>
+    <string name="no_account_yet_create_an_account">No Account Yet? Create An Account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="google">GOOGLE</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="E_mail">E-Mail:</string>
+    <string name="Name">User Name:</string>
+    <string name="TName">Tournament Name:</string>
+    <string name="THost">Host A Tournament</string>
+    <string name="phone_no">Contact Number:</string>
+    <string name="Map_Selection">Select Map:</string>
+    <string name="View">Perspective:</string>
+    <string name="Prize">Prize Pool: (In Rupees)</string>
+    <string name="Rank">Number Of Rank:</string>
+    <string name="K_Prize">Prize Per Kill:</string>
+    <string name="referral_code">Referral Code:</string>
+    <string name="Host">Host</string>
+    <string-array name="map">
+        <item>Erangle</item>
+        <item>Shanok</item>
+        <item>Miramar</item>
+    </string-array>
+    <string-array name="Participants">
+        <item>Squad</item>
+        <item>Duo</item>
+        <item>Solo</item>
+    </string-array>
+    <string-array name="View">
+        <item>TPP</item>
+        <item>FPP</item>
+    </string-array>
+</resources>
