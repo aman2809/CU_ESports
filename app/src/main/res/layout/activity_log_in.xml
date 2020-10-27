@@ -47,6 +47,7 @@
         android:inputType="textPassword" />
 
     <Button
+        android:id="@+id/profile_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
