@@ -38,6 +38,8 @@
     <string name="Rank">Number Of Rank:</string>
     <string name="K_Prize">Prize Per Kill:</string>
     <string name="referral_code">Referral Code:</string>
+    <string name="back_to_home">Back To Home</string>
+    <string name="full_name">Aman Saxena</string>
     <string name="Host">Host</string>
     <string-array name="map">
         <item>Erangle</item>
