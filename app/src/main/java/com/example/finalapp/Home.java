@@ -19,7 +19,7 @@ public class Home extends AppCompatActivity{
 protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_home);
         mBottomNavigationView = findViewById(R.id.bottomNav);
         CoordinatorLayout.LayoutParams layoutParams = (CoordinatorLayout.LayoutParams) mBottomNavigationView.getLayoutParams();
         mBottomNavigationView.getMenu().getItem(1).setChecked(true);
