@@ -7,9 +7,6 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.finalapp.R;
-import com.example.finalapp.Sign_in;
-
 public class Log_in extends AppCompatActivity {
 
     @Override
@@ -41,7 +38,7 @@ public class Log_in extends AppCompatActivity {
             }
             public void profile_button()
             {
-                Intent intent = new Intent(Log_in.this, Profile.class);
+                Intent intent = new Intent(Log_in.this, Home.class);
                 startActivity(intent);
             }
         });

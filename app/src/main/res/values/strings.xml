@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Splash Screen</string>
+    <string name="app_name">CU E-Sports</string>
     <string name="cu_esportz">CU ESportz</string>
     <string name="gaming_platform_for_everyone">Gaming Platform For Everyone</string>
     <string name="todo">TODO</string>
@@ -41,6 +41,35 @@
     <string name="back_to_home">Back To Home</string>
     <string name="full_name">Aman Saxena</string>
     <string name="Host">Host</string>
+    <string name="p_ubg">PUBG MOBILE</string>
+    <string name="p_lite">PUBG LITE</string>
+    <string name="cod">CALL OF DUTY</string>
+    <string name="ash_9">ASHPHALT 9</string>
+    <string name="f_fire">FREE FIRE</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_contest">ContestActivity</string>
+    <string name="n1_gaming">N1 Gaming</string>
+    <string name="be_ready_with_loaded_gun">Be ready with loaded gun.</string>
+    <string name="squad_battle_4">Squad Battle #4</string>
+    <string name="time_28_05_2020_at_08_00_pm">Time: 28/05/2020 at 08:00 PM</string>
+    <string name="prize_pool">PRIZE POOL</string>
+    <string name="per_kill">PER KILL</string>
+    <string name="entry_fee">ENTRY FEE</string>
+    <string name="_120">120</string>
+    <string name="_1">1</string>
+    <string name="free">FREE</string>
+    <string name="type">TYPE</string>
+    <string name="version">VERSION</string>
+    <string name="map">MAP</string>
+    <string name="squad">SQUAD</string>
+    <string name="tpp">TPP</string>
+    <string name="watch_match">WATCH MATCH</string>
+    <string name="not_joined">NOT JOINED</string>
+    <string name="contest_type_logo">Contest type logo</string>
+    <string name="pubg_mobile">PUBG MOBILE</string>
     <string-array name="map">
         <item>Erangle</item>
         <item>Shanok</item>

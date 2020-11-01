@@ -5,5 +5,9 @@
     <color name="colorSecondaryDark">#9C27B0</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="colorDark">#000</color>
+    <color name="white">#fff</color>
+    <color name="inactive_nav">#4527A0</color>
+    <color name="colorRed">#D84315</color>
 
 </resources>

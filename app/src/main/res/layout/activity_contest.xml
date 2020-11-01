@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContestActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="@color/colorDark"
+        android:id="@+id/myToolBar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:layout_height="70dp">
+
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:onClick="goToMainActivity"
+            android:src="@drawable/ic_action_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pubg_mobile"
+            android:textColorHighlight="#fff"
+            android:textColor="#fff"
+            android:layout_marginLeft="25dp"
+            android:textSize="18dp"
+            />
+
+
+
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+    <!--    Tab layout-->
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:id="@+id/tabLayout"
+        android:background="@color/colorDark"
+        app:tabIndicatorColor="@color/white"
+        app:tabTextColor="@color/white"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        android:elevation="12dp"
+        android:layout_height="50dp">
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
