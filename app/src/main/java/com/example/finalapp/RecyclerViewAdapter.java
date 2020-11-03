@@ -1,11 +1,14 @@
 package com.example.finalapp;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -29,8 +32,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
         View v;
         v = LayoutInflater.from(mContext).inflate(R.layout.result_view, parent, false);
-
-        return new MyViewHolder(v);
+        MyViewHolder vHolder = new MyViewHolder(v);
+        return vHolder;
     }
 
     @Override
@@ -39,6 +42,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         holder.tvName.setText(mData.get(position).getName());
         holder.tvPhone.setText(mData.get(position).getNumber());
         holder.img.setImageResource(mData.get(position).getPhoto());
+
+
 
     }
 
@@ -49,13 +54,13 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
 
+        private LinearLayout item_hostOrWatch;
         private TextView tvName;
         private TextView tvPhone;
         private ImageView img;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
-
             tvName = itemView.findViewById(R.id.name_contact);
             tvPhone = itemView.findViewById(R.id.phone_contact);
             img = itemView.findViewById(R.id.img_contact);
@@ -63,3 +68,4 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         }
     }
 }
+

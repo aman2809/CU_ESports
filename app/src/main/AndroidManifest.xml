@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ContestActivity"></activity>
+        <activity
+            android:name=".EarnActivity"
+            android:label="@string/title_activity_earn"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ContestActivity" />
         <activity android:name=".Home" />
         <activity android:name=".Profile" />
         <activity android:name=".Host" />
