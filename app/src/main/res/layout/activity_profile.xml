@@ -55,13 +55,89 @@
             android:gravity="center"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
     </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp">
+        <FrameLayout
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/oval_block_bg">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:padding="2dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_coin"
+            android:background="@drawable/bg_circle"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_gravity="right"
+                android:textColor="#FFFFFF"
+                android:text="150BP" />
+        </FrameLayout>
+
+
+            />
+        <FrameLayout
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="140dp"
+            android:background="@drawable/oval_block_bg">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:padding="2dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_coin"
+                android:background="@drawable/bg_circle"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_gravity="right"
+                android:textColor="#FFFFFF"
+                android:text="150BP" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="265dp"
+            android:background="@drawable/oval_block_bg">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:padding="2dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_coin"
+                android:background="@drawable/bg_circle"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_gravity="right"
+                android:textColor="#FFFFFF"
+                android:text="150BP" />
+        </FrameLayout>
+    </FrameLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.6"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
