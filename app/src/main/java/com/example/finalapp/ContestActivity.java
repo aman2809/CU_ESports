@@ -34,4 +34,10 @@ public class ContestActivity extends AppCompatActivity {
         Intent intent = new Intent(ContestActivity.this, Home.class);
         startActivity(intent);
     }
+
+    public void onBackPressed() {
+        Intent intent = new Intent(ContestActivity.this, Home.class);
+        startActivity(intent);
+
+    }
 }

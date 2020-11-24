@@ -1,5 +1,6 @@
 package com.example.finalapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -51,6 +52,12 @@ public class Host extends AppCompatActivity implements AdapterView.OnItemSelecte
     }
     @Override
     public void onNothingSelected(AdapterView<?> adapterView) {
+
+    }
+
+    public void onBackPressed() {
+        Intent intent = new Intent(Host.this, Home.class);
+        startActivity(intent);
 
     }
 
